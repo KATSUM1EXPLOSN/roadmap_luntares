@@ -667,3 +667,6 @@ body {
     background: rgba(107, 63, 160, 0.4);
     color: var(--color-text-bright);
 }
+body {
+    background: url("../image.png") center / cover no-repeat fixed !important;
+}
