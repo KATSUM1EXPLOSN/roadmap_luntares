@@ -667,6 +667,30 @@ body {
     background: rgba(107, 63, 160, 0.4);
     color: var(--color-text-bright);
 }
+
 body {
     background: url("../image.png") center / cover no-repeat fixed !important;
+}
+.footer__discord {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.discord-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 30px;
+    background: #5865F2;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.discord-button:hover {
+    background: #4752C4;
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(88, 101, 242, 0.6);
 }
